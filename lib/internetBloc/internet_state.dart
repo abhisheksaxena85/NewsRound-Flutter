@@ -1,0 +1,1 @@
+abstract class InternetState {}class internetInitialState  extends InternetState {}class internetGainedState extends InternetState{}class internetLostState extends InternetState{}
