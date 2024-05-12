@@ -1,0 +1,1 @@
+abstract class InternetEvent {}class internetGainedEvent extends InternetEvent{}class internetLostEvent extends InternetEvent{}
