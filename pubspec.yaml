@@ -58,6 +58,8 @@ dependencies:
   sqflite: any
   path: any
   path_provider: any
+  change_app_package_name: ^1.2.0
+  mailer: ^6.0.0
 
 
 
@@ -149,4 +151,4 @@ flutter:
   #         weight: 700
   #
   # For details regarding fonts from package dependencies,
-  # see https://flutter.dev/custom-fonts/#from-packages
+  # see https://flutter.dev/custom-fonts/#from-packageskeytool -genkey -v -keystore $env:USERPROFILE\upload-keystore.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000= -alias upload

@@ -1,4 +1,4 @@
-package com.example.news_round;
+package com.techofgrowth.newsround;
 
 import io.flutter.embedding.android.FlutterActivity;
 

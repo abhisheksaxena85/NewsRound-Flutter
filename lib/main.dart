@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:news_round/contact_mail_page.dart';
 import 'package:news_round/internetBloc/internet_bloc.dart';
-import 'package:news_round/pages/AppLayoutBuilder.dart';
 
 void main() {
   //Setting the orientation to vertical permanent
@@ -20,7 +20,6 @@ class MyApp extends StatelessWidget {
     //Providing multiple BLOCs
     return MultiBlocProvider(
         providers: [
-
           //Providing the internet BLOC
           BlocProvider(
             create: (context) => InternetBloc(),
@@ -40,7 +39,8 @@ class MyApp extends StatelessWidget {
             brightness: Brightness.dark
         ),
         //Building the layout according to screen width
-        home: AppLayoutBuilder())
-        );
+        // home: AppLayoutBuilder())
+        home: ContactPage()),
+    );
   }
 }
